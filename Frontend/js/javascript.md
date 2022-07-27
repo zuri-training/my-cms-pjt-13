@@ -1,2 +1,0 @@
-Frontend folder
-Javascipt subfolder
