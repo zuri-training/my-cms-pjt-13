@@ -1,0 +1,5 @@
+- https://github.com/zuri-training/my-cms-pjt-13/tree/main/mycms
+- https://github.com/zuri-training/my-cms-pjt-13/blob/main/CONTRIBUTING.md
+- https://github.com/zuri-training/my-cms-pjt-13/blob/main/README.md
+- https://github.com/zuri-training/my-cms-pjt-13/blob/main/db-schema.png
+- https://github.com/zuri-training/my-cms-pjt-13/blob/main/erd.png
