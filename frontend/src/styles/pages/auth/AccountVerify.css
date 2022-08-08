@@ -1,0 +1,118 @@
+.account-verify{
+    height: 100vh;
+    display: flex;
+    position: relative;
+}
+.account-verify-sidebar{
+    background-image: url("../../../assets/images/login-background.png");
+    width: 402px;
+}
+.account-verified-container{
+    display: flex;
+    width: auto;
+    align-self: flex-start;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 560px;
+}
+
+.account-verify .container{
+    background-color: #fff;
+    margin: auto;
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 4px;
+}
+.account-verify .logo{
+    position: absolute;
+    top: 1.5rem;
+    left: 4rem;
+    padding-bottom: 3rem;
+}
+.account-verify-sidebar{
+    display: flex;
+    justify-content: center;
+    padding-top: 133px;
+}
+.account-verify-sidebar img{
+    max-width: 227px;
+    max-height: 330px;
+}
+.account-verify .verify-form{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 131px;
+}
+.account-verify .verify-form h2{
+    color: #e20088;
+    font-size: 1.8rem;
+    line-height: 4rem;
+    font-weight: 700;
+    text-align: center;
+}
+.account-verify .verify-form p{
+    font-size: 1.1rem;
+    line-height: 2rem;
+    color: #000;
+    text-align: center;
+}
+.account-verify .input-container{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 1.2rem 0;
+}
+.account-verify .input-container input{
+    width: 2.2rem;
+    height: 2.2rem;
+    text-align: center;
+    border: 0.5px solid #666;
+    
+    
+}
+.account-verify .input-container input::placeholder{
+    font-size: large;
+    text-align: center;
+    transform: translateY(5px);
+}
+.account-verify input[type="submit"]{
+    margin-top: 1rem;
+    background-color: #e20088;
+    color: #fff;
+    border: #e20088;
+    padding: 0.5rem 8rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.4s ease-out;
+    width: 479px;
+    height: 64px;
+}
+.account-verify input[type="submit"]:hover{
+    background-color: #b80570;
+}
+@media (max-width: 768px) {
+    .account-verify{
+        flex-direction: column;
+    }
+    #account-verify-submit{
+        height: 45px;
+        width: 320px;
+    }
+    .account-verify-sidebar{
+        width: 100%;
+        background: none;
+        justify-content: flex-start;
+        padding: 20px;
+    }
+}
+@media (max-width: 500px) {
+    #account-verify-submit{
+        width: 90%;
+        height: 40px;
+    }
+}

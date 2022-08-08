@@ -1,0 +1,724 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.d-flex {
+  display: flex;
+  gap: 27px;
+}
+.login-sidebar {
+  background: url("../../../assets/images/273_Pink_Halftone_BG_2.png");
+  background-repeat: no-repeat;
+  width: 402px;
+  display: flex;
+  justify-content: center;
+  padding-top: 133px;
+}
+.login-sidebar img {
+  max-width: 226.67px;
+  max-height: 329.97px;
+}
+.login-page main{
+  padding: 0px;
+  background: url("../../../assets/images/logo-big.png");
+  background-repeat: no-repeat;
+  background-size: 14rem;
+  position: relative;
+  background-attachment: fixed;
+  background-position: right;
+  top: 0px;
+  max-width: 480px;
+  margin: 0 auto;
+}
+.login-page .logo {
+  margin: 0 auto;
+  margin-top: -20rem;
+  left: 10rem;
+  width: 3.5rem;
+}
+.login-page .login-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+  padding: 0px;
+  gap: 24px;
+
+  padding: 20px;
+  margin: 0 auto;
+  width: 80%;
+  margin-bottom: 1rem;
+}
+.login-page .login-box {
+  display: flex;
+  flex-direction: column;
+  padding-top: 131px;
+  gap: 32px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.login-page .login-text {
+  text-align: center;
+  color: #e20088;
+}
+.login-page .login h1 {
+  /* Headline Text/Headline 3 */
+  text-align: center;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  /* identical to box height, or 150% */
+
+  display: flex;
+  align-items: center;
+
+  /* Primary Color/main */
+
+  color: #e20088;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.login-page .firstname-field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  margin-bottom: 1.5rem;
+
+  width: 100%;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.login-page input {
+  border: 1px solid #a3a3a3;
+}
+.login-page .fullname-text {
+  /* Body Text/Body Text-Regular */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  /* identical to box height, or 200% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.015em;
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.login-page .fullname {
+  box-sizing: border-box;
+
+  /* Auto layout */
+  padding: 12px;
+  gap: 10px;
+
+  width: 35rem;
+
+  background: #ffffff;
+  /* Tertiary color/800 */
+
+  border: 1px solid #a3a3a3;
+  border-radius: 4px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.frame22 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+
+  width: 100%;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+.login-page .confirm-password-field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+
+  width: 100%;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.login-page .confirmPassword-text {
+  /* Body Text/Body Text-Regular */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  /* identical to box height, or 200% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.015em;
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.password-fa-eye {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
+.login-page .fa-eye {
+  color: #cccccc;
+  cursor: pointer;
+  margin-top: 0.8rem;
+  margin-left: -1.5rem;
+}
+.login-page .rmfp {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /*align-items: flex-start;*/
+  padding: 0px;
+  width: 100%;
+  gap: 21px;
+  margin: 2rem 0rem;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.login-page .remember-me {
+  display: flex;
+  padding: 0px;
+  gap: 16px;
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  width: 60%;
+}
+.login-page .remember {
+  box-sizing: border-box;
+
+  width: 1.5rem;
+  height: 1.5rem;
+  /* Tertiary color/800 */
+
+  border: 1px solid #a3a3a3;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.login-page .rememberMe-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.login-page .forgot-password {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+  width: 40%;
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.login-page .login-button {
+  padding: 16px 26px;
+  gap: 16px;
+  width: 100%;
+  background: linear-gradient(92.81deg, #e20088 39.07%, #4e53a5 162.03%);
+  border: 0.0762891px solid #fefefe;
+  border-radius: 8px;
+  text-align: center;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+.login-page .login-button a {
+  width: 44px;
+  height: 32px;
+
+  /* Body Text/Body Text-Semi Bold */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+  text-decoration: none;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.015em;
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.login-page .sign-up {
+  /* Body Text/Body Text-Bold */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.015em;
+
+  /* Tertiary color/900 */
+
+  color: #7b7b7b;
+  width: 100%;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+}
+.login-page .sign-up p {
+  text-align: center;
+}
+.login-page .sign-up a {
+  color: #e20088;
+  text-decoration: none;
+}
+.login-page .login-with {
+  width: 100%;
+  /* Headline Text/Headline 4 */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height, or 150% */
+
+  /* Primary Color/white */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.login-page .login-with p {
+  text-align: center;
+}
+.login-page .google-and-linkedin {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  padding: 0px;
+  gap: 48px;
+  margin: 1.5rem auto;
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+.login-page .google {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  place-items: center;
+  padding: 13px 13px 11px;
+  gap: 16px;
+
+  width: 91%;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+  border-radius: 200px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  z-index: 0;
+}
+
+.google-image {
+  width: 30px;
+  height: 30px;
+  top: 12px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  z-index: 3;
+}
+.login-page .google button {
+  width: 190px;
+  height: 32px;
+
+  /* Body Text/Body Text-Semi Bold */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.015em;
+
+  /* Tertiary color/1000 */
+  background-color: #ffffff;
+  border: none;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.login-page .google button a {
+  color: #525252;
+  text-decoration: none;
+  text-align: center;
+}
+.w-100{
+  width: 100%;
+}
+.login-page .google-wrapper {
+  width: 91%;
+  height: 64px;
+}
+
+.login-page .linkedin {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 13px 11px;
+  gap: 16px;
+  width: 91%;
+  margin-bottom: 5rem;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+  border-radius: 200px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  z-index: 1;
+}
+.login-page .linkedin img {
+  width: 30px;
+  height: 30px;
+  left: 177px;
+  top: 124px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  z-index: 2;
+}
+.login-page .linkedin button {
+  width: 194px;
+  height: 32px;
+
+  /* Body Text/Body Text-Semi Bold */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.015em;
+
+  /* Tertiary color/1000 */
+  background-color: #ffffff;
+  border: none;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.login-page .linkedin button a {
+  color: #525252;
+  text-decoration: none;
+  text-align: center;
+}
+.login-page .error {
+  color: red;
+  font-style: italic;
+  font-size: small;
+}
+.login-page .error2 {
+  color: red;
+  font-style: italic;
+  font-size: small;
+}
+.coloured-thirtin-logo{
+  display: none;
+}
+@media (max-width:1025px) {
+  .login-sidebar img{
+    max-width: 100px;
+    max-height: 100px;
+  }
+  .login-sidebar{
+    width: 30%;
+  }
+}
+@media (max-width: 768px) {
+  .coloured-thirtin-logo{
+    display: block;
+  }
+  .thirtin-logo{
+    display: none;
+  }
+  .login-page {
+    flex-direction: column;
+  }
+  .no-break{
+    white-space: nowrap;
+  }
+  .login-sidebar img{
+    max-width: 60px;
+    justify-self: flex-start;
+  }
+  .login-page input{
+    width: 100% !important;
+  }
+  .w-100{
+    width: 100% !important;
+  }
+  .my-form{
+    width: 100%;
+  }
+  .login-sidebar{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    justify-content: flex-start;
+    padding-left: 30px;
+    background: none;
+  }
+  .login-page .login-screen {
+    place-items: center;
+    width: 70%;
+  }
+  .login-page .login-box {
+    align-items: center;
+    padding: 30px;
+    gap: 32px;
+
+    width: 100%;
+  }
+  .login-page .google-and-linkedin {
+    padding: 0px 24px;
+    margin: 1.5rem auto;
+    width: 78%;
+  }
+}
+@media (max-width: 574px) {
+  .login-page .login-screen {
+    place-items: center;
+    width: 80%;
+  }
+  .login-page .google-and-linkedin {
+    margin: 1.5rem auto;
+    width: 89.5%;
+  }
+}
+@media (max-width: 500px) {
+  .login-page .login-screen {
+    place-items: center;
+    width: 80%;
+  }
+  .login-page .rmfp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+@media (max-width: 428px) {
+  .login-page .login-screen {
+    place-items: center;
+    width: 100%;
+  }
+  .login-page .google-and-linkedin {
+    padding: 0px 0px;
+    width: 100%;
+  }
+}
+@media (max-width: 350px) {
+  .login-page .login-screen {
+    width: 100%;
+  }
+  .login-page .login-box {
+    align-items: unset;
+    padding: 30px;
+    gap: 32px;
+
+    width: 100%;
+  }
+  .login-page .login-box h1 {
+    text-align: center;
+  }
+  .login-page .rmfp {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .login-page .google-image {
+    width: 25px;
+    height: 25px;
+    left: 183.18px;
+    top: 12px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    z-index: 3;
+  }
+  .login-page .linkedin img {
+    width: 25px;
+    height: 25px;
+    left: 177px;
+    top: 124px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    z-index: 2;
+  }
+  .login-page .google button {
+    font-size: 13px;
+    width: 140px;
+  }
+  .login-page .linkedin button {
+    font-size: 13px;
+    width: 140px;
+  }
+}
+@media (max-width: 284px) {
+  .login-page .google-image {
+    width: 20px;
+    height: 20px;
+    left: 0px;
+    top: 12px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    z-index: 3;
+  }
+  .login-page .linkedin img {
+    width: 20px;
+    height: 20px;
+    left: 0px;
+    top: 124px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    z-index: 2;
+  }
+}

@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.sign-up-method {
+  display: flex;
+  background-color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  gap: 23.82px;
+  width: 638px;
+  height: 64px;
+  margin: 0 auto;
+  border-radius: 200px;
+}
+.mgt-48 {
+  margin-top: 48px;
+}
+.sign-up-wrapper {
+  background-image: url("../../../assets/images/sign-up-background-img.png");
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  padding-top: 72px;
+  padding-bottom: 178px;
+}
+.sign-up-icon {
+  margin-left: 99px;
+  margin-bottom: 24.25px;
+}
+.sign-up-wrapper .input {
+  width: 479px;
+  height: 55px;
+  border-radius: 4px;
+  border: 1px solid #a3a3a3;
+  outline: none;
+  padding-left: 12px;
+}
+.sign-up-wrapper .input input {
+  width: 420px;
+  height: 50px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+.sign-up-form {
+  background-color: #ffffff;
+  max-width: 640px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  border-radius: 10px;
+  padding: 80px 0;
+}
+.d-flex {
+  display: flex;
+}
+.align-items-center {
+  align-items: center;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.sign-up-wrapper .input-1 {
+  width: 479px;
+  height: 55px;
+  border-radius: 4px;
+  border: 1px solid #a3a3a3;
+  outline: none;
+  padding-left: 12px;
+}
+.sign-up-wrapper h3 {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #e20088;
+  margin-bottom: 32px;
+}
+.sign-up-wrapper h4 {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #ffffff;
+  text-align: center;
+  margin: 24px 0;
+}
+.sign-up-wrapper h5 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.015em;
+}
+.sign-up-wrapper h5 a {
+  color: #e20088;
+}
+.sign-up-wrapper h6 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0.015em;
+}
+.sign-up-wrapper p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.015em;
+  text-align: left;
+}
+.sign-up-wrapper button {
+  width: 479px;
+  height: 64px;
+  border-radius: 100px;
+  background: linear-gradient(92.81deg, #e20088 39.07%, #4e53a5 162.03%),
+    linear-gradient(0deg, #fefefe, #fefefe);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0.015em;
+  border: none;
+  margin: 32px 0;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.sign-up-wrapper button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.sign-up-wrapper .google-wrapper {
+  width: 638px;
+  margin: auto;
+}
+
+.google-wrapper button {
+  cursor: pointer;
+  border-radius: 200px !important;
+  box-shadow: 0px 2px 4px rgb(0 0 0 / 8%) !important;
+  width: 100%;
+  justify-content: center;
+  color: #525252 !important;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  line-height: 32px;
+  letter-spacing: 0.015em;
+}
+
+.sign-up-wrapper .google {
+  width: 100%;
+  background: white;
+  line-height: normal;
+  justify-content: center;
+  border-radius: 100px !important;
+}
+
+.sign-up-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 700px) {
+  .w-100 {
+    width: 100%;
+  }
+  .sign-up-method {
+    width: 80%;
+  }
+  .sign-up-form {
+    width: 80%;
+  }
+  .sign-up-wrapper .input-1 {
+    width: 80%;
+  }
+  .sign-up-wrapper .input {
+    width: 80%;
+  }
+  .sign-up-wrapper .input input {
+    width: 80%;
+  }
+  .sign-up-wrapper button {
+    width: 80%;
+  }
+  .sign-up-wrapper p {
+    width: 80%;
+  }
+  .align-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (min-width: 700px) {
+  .sign-up-wrapper p {
+    max-width: 200px;
+  }
+}
+@media (max-width: 425px) {
+  .sign-up-wrapper button {
+    height: 40px;
+  }
+  .sign-up-method {
+    height: 50px;
+  }
+}
