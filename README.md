@@ -27,9 +27,12 @@ A platform that allows users spin up a basic website - allow as much customizati
 
 ## Authors
 
+### Developers
 - [Dapo Adedire](https://www.github.com/dapo_adedire)
 - [Add your name](https://www.github.com/your-username)
 
+### Product Designers
+- [Add your name](https://www.github.com/your-username)
 
 ## Contributing
 
