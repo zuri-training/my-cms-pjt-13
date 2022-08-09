@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+:root{
+    --pink:#E20088;
+    --purple:#4E53A5;
+    --getStarted: linear-gradient(92.81deg, #E20088 39.07%, #4E53A5 162.03%),
+    linear-gradient(0deg, #FEFEFE, #FEFEFE);
+    --btnBackground: linear-gradient(92.81deg, #E20088 39.07%, #4E53A5 162.03%),
+    linear-gradient(0deg, #FEFEFE, #FEFEFE);}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contact-us main{
+    background: url('../../../assets/images/top-bg.png') no-repeat;
+    text-align: center;
+}
+.contact-us main .heading{
+    padding: 7rem 0 4rem;
+    color: #FFF;
+}
+.contact-us main .heading h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0em;
+
+}
+.contact-us main .heading p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0px;
+}
+.contact-us main form{
+    width: 35rem;
+    margin:0 auto 2rem;
+    padding: 3.5rem 0;
+    background-color: #fff;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(34, 34, 34, 0.1);
+}
+.contact-us main form .input-box{
+    width: 26rem;
+    margin:0 auto ;
+    text-align: left;
+    padding:1rem 0 ;
+} 
+.contact-us main form .input-box input{
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #A3A3A3;
+}
+.contact-us input::placeholder{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+}
+textarea::placeholder{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.contact-us main form .input-box input, main form .input-box textarea{
+    width: 80%;
+    margin:.8rem 0;
+    padding:.5rem .8rem;
+}
+textarea{
+    font-family: inter;
+    font-size: 18px;
+    border: 1px solid #A3A3A3;
+    border-radius: 8px;
+}
+.contact-us main form .input-box textarea{
+    resize: none;
+}
+.contact-us main form button{
+    background: var(--btnBackground);
+    color: #FFF;
+    padding: 1rem 8rem;
+    border-radius: 2rem;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+.contact-us main form .input-box input::placeholder, main form .input-box textarea::placeholder{
+    padding: .3rem 0;
+}
+.contact-us main .social-links{
+    padding:1.5rem 0;
+}
+.contact-us main .social-links img{
+    margin-right: 1rem;
+}
+.contact-us main p:nth-of-type(2){
+    margin-bottom: 3.5rem;
+}
+
+@media (max-width: 630px) {
+    .contact-us form{
+        width: 80% !important;
+        padding-left: 20px !important;
+    }
+    .contact-us main form .input-box input{
+        width: 80%;
+    }
+    .contact-us button{
+        width: 275px !important;
+        height: 50px !important;
+        padding: 0 !important;
+    }
+}
+@media (min-width: 631px) {
+    .contact-us main form .input-box input, main form .input-box textarea{
+        width: 100%!important;
+    }
+}

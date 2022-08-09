@@ -1,0 +1,33 @@
+footer{
+    background: url('../../assets/images/bottom-bg.png') no-repeat;
+    background-size: cover;
+    min-height: 25rem;
+}
+footer .contents{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 12rem 0 0;
+}
+footer .contents .quick-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;    
+    flex-wrap: wrap;
+    gap: 20px;
+}
+footer .contents .quick-links a{
+    color: #fff;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+footer p{
+    color: #fff;
+    margin-top: 1.8rem;
+}
+@media (max-width: 620px) {
+    footer .quick-links{
+        flex-direction: column;
+    }
+}

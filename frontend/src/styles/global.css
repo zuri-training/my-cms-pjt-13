@@ -1,0 +1,24 @@
+/* auth pages */
+@import url('./pages/auth/forgotpassword.css');
+@import url('./pages/auth/signup.css');
+@import url('./pages/auth/passsword-reset-page.css');
+@import url('./pages/auth/AccountVerify.css');
+@import url('./pages/auth/VerifySuccess.css');
+@import url('./pages/auth/login.css');
+@import url('./pages/auth/password-reset-code.css');
+
+/* main pages */
+@import url('./pages/main/contact-us.css');
+@import url('./pages/main/landingpage.css');
+@import url('./pages/main/template.css');
+
+/* components */
+@import url('./components/nav.css');
+@import url(./components/footer.css);
+@import url('./components/password.css');
+@import url('./components/templatecard.css');
+@import url('./components/needhelp.css');
+@import url('./components/dashboard-bar.css');
+
+/* font-styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
