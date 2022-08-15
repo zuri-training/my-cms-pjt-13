@@ -9,9 +9,11 @@
 }
 .account-verified-container{
     display: flex;
+    flex-direction: column;
     width: auto;
     align-self: flex-start;
     justify-content: center;
+    place-items: center;
     margin: 0 auto;
     max-width: 560px;
 }

@@ -1,0 +1,80 @@
+.customize-icons{
+    position: fixed;
+    top: 16px;
+    left: 16px;
+    bottom: 16px;
+    border-radius: 8px;
+    padding: 14px;
+    padding-bottom: 40px;
+    background-color: #ffffff;
+    width: 368px;
+    box-shadow: 0px 20px 50px #000000;
+    overflow-y: scroll;
+}
+.customize-icons::-webkit-scrollbar {
+    width: 5px;
+}
+
+.customize-icons::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.customize-icons::-webkit-scrollbar-thumb {
+    background-color: #dedede;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
+.customize-icons .add-social{
+    background-color: #E20088;
+    height: 64px;
+    width: 153px;
+    border-radius: 8px;
+    border: none;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0.015em;
+    color: #ffffff;
+    margin: 15px 0;
+}
+.customize-icons .add-socials-icons{
+    width: 40px;
+    height: 40px;
+}
+.social-container{
+    display: flex;
+    width: 338px;
+    height: 55px;
+    border: 0.88px solid #E8E7E7;
+    align-items: center;
+    padding: 0 17px;
+} 
+.social-container input{
+    height: 40px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    padding-left: 22px;
+    width: 244px;
+    border: none;
+    outline: none;
+}
+.social-container input ::placeholder{
+    height: 40px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.social-wrapper h4{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 8px;
+}
+.social-wrapper{
+    margin-bottom: 21px;
+}

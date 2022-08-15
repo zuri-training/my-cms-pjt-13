@@ -11,6 +11,8 @@
 @import url('./pages/main/contact-us.css');
 @import url('./pages/main/landingpage.css');
 @import url('./pages/main/template.css');
+@import url('./pages/main/dashboard.css');
+@import url('./pages/main/designpage.css');
 
 /* components */
 @import url('./components/nav.css');
@@ -20,5 +22,21 @@
 @import url('./components/needhelp.css');
 @import url('./components/dashboard-bar.css');
 
+/*Templates*/
+@import url('./templates/businesstemplate.css');
+@import url('./templates/portfoliocardtemplate.css');
+@import url('./templates/portfoliotemplate.css');
+
+/* templates customization*/
+@import url('./components/templates-customization/buttoncustomization.css');
+@import url('./components/templates-customization/customizesocialicons.css');
+@import url('./components/templates-customization/imagecustomization.css');
+@import url('./components/templates-customization/temlate-nav.css');
+@import url('./components/templates-customization/text-customization.css');
+
 /* font-styles */
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/* custom font-family */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');

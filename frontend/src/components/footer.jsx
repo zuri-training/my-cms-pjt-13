@@ -1,11 +1,13 @@
+import { Link } from "react-router-dom"
+
 const Footer = () => {
     return(
         <footer>
             <div className="contents">
                 <div className="quick-links">
-                    <a href="#">Home</a>
-                    <a href="#">Terms of Use</a>
-                    <a href="#">Contact Us</a>
+                    <Link to="/">Home</Link>
+                    <Link to="/about">Terms of Use</Link>
+                    <Link to="/contact-us">Contact Us</Link>
                 </div>
                 <p>&copy; THIRTIN. All rights reserved.</p>
             </div>

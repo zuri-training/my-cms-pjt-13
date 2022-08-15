@@ -11,17 +11,26 @@ import AccountVerify from "../pages/auth/accountverify";
 import VerifySuccess from "../pages/auth/verifysuccess";
 import Template from "../pages/main/template";
 import Dashboard from "../pages/main/dashboard";
+import DesignPage from "../pages/main/designspage";
+import PortfolioCard from "../templates/portfoliocardtemplate";
+import PortfolioTemplate from "../templates/portfoliotemplate";
+import BusinessTemplate from "../templates/businesstemplate";
 
 const Router = () => {
   return (
     <BrowserRouter>
       <Routes>
-        {/* main */}
+        {/* Main */}
         <Route path="/" element={<LandingPage />} />
         <Route path="/landingpage" element={<LandingPage />} />
         <Route path="/templates" element={<Template />} />
         <Route path="/dashboard" element={<Dashboard />} />
-        {/* auth */}
+        <Route path="/design" element={<DesignPage/>}/>
+        {/*Templates*/}
+        <Route path="/dashboard/portfolio-card-template" element={<PortfolioCard/>}/>
+        <Route path="/dashboard/portfolio-template" element={<PortfolioTemplate/>}/>
+        <Route path="/dashboard/business-template" element={<BusinessTemplate/>}/>
+        {/* Auth */}
         <Route path="/account-verify" element={<AccountVerify/>}/>
         <Route path="/verify-success" element={<VerifySuccess/>}/>
         <Route path="/forgot-password" element={<ForgotPassword/>} />
@@ -30,7 +39,6 @@ const Router = () => {
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/login" element={<Login />} />
         <Route path="/password-reset-code" element={<PasswordResetCode />} />
-
       </Routes>
     </BrowserRouter>
   );

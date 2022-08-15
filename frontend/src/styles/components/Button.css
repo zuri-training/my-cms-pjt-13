@@ -1,0 +1,29 @@
+.goback {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end !important;
+    align-items: flex-end !important;
+    margin-top: 1rem;
+}
+.go-back-btn {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #E20088;
+    padding: 8px;
+    gap: 8px;
+    width: 128px;
+    height: 48px;
+    left: 1192px;
+    top: 42px;
+    background: #FFFFFF;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+
+}
