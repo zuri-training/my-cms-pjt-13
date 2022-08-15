@@ -1,0 +1,390 @@
+.business-template-nav{
+    width: 100%;
+    height: 145px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    align-items: center;
+}
+.business-template-nav-links{
+    display: flex;
+    gap: 56px;
+    align-items: center;
+}
+.business-template-nav-logo h3{
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.015em;
+    text-align: left;
+    color: #00112E;
+}
+.business-reviews .client span{
+    width: 98px;
+    height: 98px;
+}
+.business-reviews .client span img{
+    width: 100%;
+    height: 100%;
+}
+.business-template-nav-links button{
+    margin-left: 24px;
+    border-radius: 20px 20px 20px 0px;
+    padding: 24px;
+    background-color: #00112E;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0.025em;
+    text-align: center;
+    color: #ffffff;
+}
+.business-meet-our-team{
+    max-width: 347px;
+    max-height: 400px;
+}
+.business-meet-our-team img{
+    width: 100%;
+    height: 100%;
+}
+#business-template-logo-1{
+    width: 100%;
+    height: 100%;
+}
+#business-template-logo-1-wrapper{
+    max-width: 706px;
+    max-height: 500px;
+}
+.business-template-nav-links p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.015em;
+    color: #383838;
+}
+.business-template-nav-links p :active{
+    font-weight: 700;
+    color: #00112E;
+}
+.business-template-top{
+    background: linear-gradient(180deg, #EDEBEB 31.39%, rgba(237, 235, 235, 0) 95.95%),url("../../assets/images/business-template-background.png");
+    padding-top: 276px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 250px;
+}
+.business-template-top h1{
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0.015em;
+    text-align: center;
+    max-width: 800px;
+    color: #00112E;
+    margin-bottom: 47px;
+}
+.business-template-top button{
+    border-radius: 20px 20px 20px 0px;
+    padding: 24px;
+    font-family: Inter;
+    background-color: #00112E;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0.025em;
+    text-align: center;
+    color: #ffffff;
+}
+.business-template-about{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    padding-top: 120px;
+    padding-bottom: 218px;
+}
+.business-template--about-text{
+    max-width: 588px;
+}
+.business-template--about-text h4{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29px;
+    letter-spacing: 0.015em;
+    text-align: left;
+    color: #383838;
+}
+.business-template--about-text h5{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-top: 32px;
+    color: #00112E;
+}
+.business-template--about-text h6{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-top: 32px;
+    color: #00112E;
+}
+.business-template-meet-our-team{
+    background-color: #EDEBEB80;
+    padding: 100px 0;
+}
+.business-template-meet-our-team h3{
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #00112E;    
+    margin-bottom: 64px;
+}
+.business-template-team-images{
+    display: flex;
+    gap: 133px;
+    justify-content: center;
+}
+.business-template-team-image{
+    display: flex;
+    flex-direction: column;
+    max-width: 343px;
+}
+.business-template-team-image h5{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0.015em;
+    text-align: center;
+}
+.business-template-team-image h6{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.015em;
+    text-align: center;
+}
+.business-reviews{
+    display: flex;
+    padding-top: 120px;
+    gap: 40px;
+}
+.client-reviews{
+    background-color: #00112E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 200px 100px;
+    width: 700px;
+}
+.client-reviews h4{
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0.015em;
+    text-align: left;
+    color: #ffffff;
+    max-width: 500px;
+    margin-bottom: 32px;
+}
+.client-reviews h5{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.015em;
+    text-align: left;
+    color: #ffffff;
+    max-width: 482px;
+    margin-bottom: 32px;
+}
+.client-reviews button{
+    border-radius: 20px 20px 20px 0px;
+    padding: 24px;
+    background-color: #ffffff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.025em;
+    color: #00112E;
+    max-width: 216px;
+}
+.clients .client{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 30px;
+    box-shadow: 0px 4px 10px 0px #0000001A;
+}
+.clients .client h6{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.015em;
+    text-align: left; 
+    color: #00112E;   
+}
+.clients .client p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.015em;
+    text-align: left;
+    color: #00112E;
+    max-width: 628px;
+}
+.clients{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.business-our-partners{
+    background-color: #00112E0D;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.business-our-partners h4{
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0.015em;
+    text-align: center;
+    color: #00112E;
+    margin-bottom: 64px;
+}
+.business-our-partners-main div{
+    max-width: 300px;
+    max-height: 80px;
+}
+.business-our-partners-main{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+.business-our-partners-main div img{
+    width: 100%;
+    height: 100%;
+}
+.business-stay-in-touch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 4px 10px 0px #0000001A;
+    border-top: 1px solid #000000;
+    border-radius: 32px 32px 32px 0px;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: #ffffff;
+    padding: 92px 0;
+    margin-bottom: 50px;
+}
+.business-stay-in-touch h4{
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0.015em;
+    text-align: center;
+    color: #00112E;
+    margin-bottom: 16px;
+}
+.business-stay-in-touch p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.015em;
+    text-align: center;
+    color: #00112E;
+    max-width: 511px;
+}
+.business-stay-in-touch input{
+    height: 67px;
+    width: 490px;
+    border: 1px solid rgba(0, 124, 74, 0.4);
+    border-radius: 20px 0px 0px 0px;
+    padding: 24px;
+}
+.business-stay-in-touch input::placeholder{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.025em;
+    text-align: left;
+    color: #00112E;
+}
+.business-stay-in-touch button{
+    height: 67px;
+    width: 162px;
+    background: #00112E;
+    border-radius: 0px 20px 20px 0px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0.025em;
+    text-align: center;
+    color: #ffffff;
+}
+.business-footer{
+    background-color: #00112E;
+    padding-top: 233px;
+    z-index: -1;
+}
+.business-footer h5{
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.015em;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 36px;
+}
+.business-footer p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.015em;
+    text-align: center;
+    color: #ffffff;
+}
+.business-footer div{
+    display: flex;
+    gap: 23px;
+    padding-bottom: 91px;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+@media (min-width: 1400px) {
+    .business-reviews{
+        justify-content: space-between;
+    }
+}

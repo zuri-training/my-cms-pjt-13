@@ -1,3 +1,4 @@
+import Button from "../../components/Button";
 import Password from "../../components/password";
 
 const PasswordResetPage = () => {
@@ -8,6 +9,7 @@ const PasswordResetPage = () => {
                 <img src={require("../../assets/images/favicon.png")} alt="" className="coloured-thirtin-logo"/>
             </div>
             <div className="mg-auto">
+                <Button />
                 <div className='password-reset-page-form-wrapper'>
                     <div className='password-reset-page-form'>
                         <h3>Enter New Password</h3>

@@ -1,0 +1,82 @@
+.customize-image{
+    position: fixed;
+    width: 370px;
+    height: 523px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    top: 17px;
+    left: 17px;
+    padding: 16px;
+    box-shadow: 0px 20px 50px #000000;
+    overflow-y: scroll;
+}
+.customize-image::-webkit-scrollbar {
+    width: 5px;
+}
+#switch-sides{
+    cursor: pointer;
+}
+.customize-image::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.customize-image::-webkit-scrollbar-thumb {
+    background-color: #dedede;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
+.add-img-btn{
+    background-color: #E20088;
+    height: 64px;
+    width: 153px;
+    border-radius: 8px;
+    border: none;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0.015em;
+    color: #ffffff;
+    margin: 15px 0;
+}
+.image-input {
+    width: 334px;
+    height: 272px;
+    background-color: #E8E7E7;
+    border-radius: 6.64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 19px;
+    margin-bottom: 21px;
+}
+.image-input-field{
+    display: none;
+}
+.image-input p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 11px;
+    color: #63636380;
+}
+.image-input h6{
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 11px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #63636380;
+}
+.image-preview{
+    width: 100%;
+    height: 270px;
+    margin-bottom: 15px;
+    display: none;
+}
+.image-preview img{
+    width: 100%;
+    height: 100%;
+}

@@ -3,7 +3,8 @@ nav{
     align-items: center;
     justify-content: space-between;
     width: 86%;
-    margin:0.8rem auto 1.8rem;
+    margin:0.8rem auto 1rem;
+    position: sticky;
 }
 nav .navbar a{
     text-decoration: none;
@@ -13,6 +14,7 @@ nav .navbar a{
     line-height: 32px;
     letter-spacing: 0.015em;
     margin-right: 1.6rem;
+    cursor: pointer;
 }
 nav div a:active{
     color: #E20088;
@@ -20,14 +22,21 @@ nav div a:active{
 }
 nav div a:hover{
     color: #E20088;
+    font-weight: 600;
 }
 nav div .get-started{
-    background: linear-gradient(92.81deg, #E20088 39.07%, #4E53A5 162.03%);
+    background-color: #E20088;
     padding:1rem 1.3rem;
-    border-radius: 1.6rem;
+    border-radius: 8px;
     color: #FFF;
     margin-right: 0;
     font-weight: 700;
+}
+nav div .get-started:active{
+    color: #FFF;
+}
+nav div .get-started:hover{
+    color: #FFF;
 }
 @media (max-width: 850px) {
     .navbar{

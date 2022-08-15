@@ -11,9 +11,9 @@
   gap: 27px;
 }
 .login-sidebar {
-  background: url("../../../assets/images/273_Pink_Halftone_BG_2.png");
+  background: url("../../../assets/images/login-background.png");
   background-repeat: no-repeat;
-  width: 402px;
+  width: 30%;
   display: flex;
   justify-content: center;
   padding-top: 133px;
@@ -23,15 +23,12 @@
   max-height: 329.97px;
 }
 .login-page main{
+  display: flex;
+  flex-direction: column;
   padding: 0px;
-  background: url("../../../assets/images/logo-big.png");
-  background-repeat: no-repeat;
-  background-size: 14rem;
-  position: relative;
-  background-attachment: fixed;
-  background-position: right;
   top: 0px;
   max-width: 480px;
+  width: 70%;
   margin: 0 auto;
 }
 .login-page .logo {
@@ -40,20 +37,7 @@
   left: 10rem;
   width: 3.5rem;
 }
-.login-page .login-screen {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  place-items: center;
-  padding: 0px;
-  gap: 24px;
 
-  padding: 20px;
-  margin: 0 auto;
-  width: 80%;
-  margin-bottom: 1rem;
-}
 .login-page .login-box {
   display: flex;
   flex-direction: column;
@@ -140,8 +124,9 @@
   box-sizing: border-box;
 
   /* Auto layout */
-  padding: 12px;
+  padding: 19px;
   gap: 10px;
+  font-size: 16px;
 
   width: 35rem;
 
@@ -297,7 +282,7 @@
   padding: 16px 26px;
   gap: 16px;
   width: 100%;
-  background: linear-gradient(92.81deg, #e20088 39.07%, #4e53a5 162.03%);
+  background: #e20088;
   border: 0.0762891px solid #fefefe;
   border-radius: 8px;
   text-align: center;
@@ -308,10 +293,7 @@
   order: 3;
   flex-grow: 0;
 }
-.login-page .login-button a {
-  width: 44px;
-  height: 32px;
-
+.login-page .login-button p{
   /* Body Text/Body Text-Semi Bold */
 
   font-family: "Inter";
@@ -331,6 +313,7 @@
   flex: none;
   order: 0;
   flex-grow: 0;
+  text-align: center;
 }
 .login-page .sign-up {
   /* Body Text/Body Text-Bold */
@@ -393,6 +376,7 @@
   padding: 0px;
   gap: 48px;
   margin: 1.5rem auto;
+  width: 100%;
   /* Inside auto layout */
 
   flex: none;
@@ -468,7 +452,7 @@
   width: 100%;
 }
 .login-page .google-wrapper {
-  width: 91%;
+  width: 100%;
   height: 64px;
 }
 
@@ -479,7 +463,7 @@
   align-items: center;
   padding: 13px 13px 11px;
   gap: 16px;
-  width: 91%;
+  width: 100%;
   margin-bottom: 5rem;
   background: #ffffff;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);

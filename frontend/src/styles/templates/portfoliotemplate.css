@@ -1,0 +1,218 @@
+.portfolio-template-header{
+    background-color: #3B009A;
+    padding: 0 126px;
+    padding-top: 49.83px;
+    padding-bottom: 160px;
+}
+.portfolio-template-top{
+    display: flex;
+    justify-content: space-between;
+}
+.portfolio-template-top h2{
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+    letter-spacing: 0.025em;
+    text-align: center;
+
+}
+.portfolio-template-links{
+    display: flex;
+    align-items: center;
+    gap: 46px;
+}
+.portfolio-template-links h5{
+    color: #ffffff;font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.015em;
+}
+.portfolio-template-links h5:active{
+    font-weight: 700px;
+}
+.portfolio-template-links button{
+    width: 150px;
+    height: 56px;
+    background-color: #ffffff;
+    border: none;
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.025em;
+    text-align: center;
+    color: #3B009A;
+}
+.portfolio-template-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 102.33px;
+}
+.portfolio-template-main-text{
+    max-width: 490px;
+}
+.portfolio-template-main-text h1{
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0.015em;
+    margin-bottom: 27px;
+}
+.portfolio-template-main-text p{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin-bottom: 27px;
+}
+.portfolio-template-main-text button{
+    width: 281.67px;
+    height: 56px;
+    border-radius: 8.33px;
+    background-color: #ffffff;
+    border: none;
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.025em;
+    text-align: center;
+    color: #3B009A;
+
+}
+.portfolio-section{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 0 185px;
+    margin-top: 120px;
+}
+.portfolio-section h3{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    color: #00112E;
+    margin-bottom: 32px;
+}
+.portfolio-section h4{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+    color: #00112E;
+    margin-bottom: 32px;
+}
+.portfolio-section h5{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #00112E;
+    margin-bottom: 32px;
+}
+.portfolio-section button{
+    padding: 24px;
+    background-color: #3B009A;
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0.025em;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+}
+.portfolio-section div{
+    max-width: 588px;
+}
+.portfolio-section .span{
+    width: 400px;
+    height: 361px;
+}
+.portfolio-section .span img{
+    width: 100%;
+    height: 100%;
+}
+.portfolio-img{
+    width: 480px;
+    height: 465px;
+}
+.portfolio-img img{
+    width: 100%;
+    height: 100%;
+}
+.portfolio-section-wrapper h2{
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 58px;
+    letter-spacing: 0.025em;
+    text-align: center;
+    color: #3B009A;
+}
+.my-portfolio{
+    padding-top: 140px;
+}
+.portfolio-footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #3B009A;
+    width: 1100px;
+    height: 517px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.portfolio-footer h2{
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0.015em;
+    text-align: center;
+    color: #ffffff;
+    max-width: 687px;
+    margin-top: 100px;
+}
+.portfolio-footer p{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.015em;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 32px;
+}
+.portfolio-icons{
+    display: flex;
+    gap: 23px;
+    margin-top: 32px;
+}
+.portfolio-template-body .bottom{
+    width: 100%;
+    background-color: #3B009A;
+    margin-top: 120px;
+    height: 271px;
+}
+@media (max-width: 1222px) {
+ .portfolio-template-main-text{
+    margin-bottom: 40px;
+ }   
+}

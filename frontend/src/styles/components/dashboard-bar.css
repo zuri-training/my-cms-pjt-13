@@ -1,5 +1,80 @@
 .dashboard-bar{
     width: 402px;
     height: 100vh;
-    background-color: #2D001B;
+    position: fixed;
+    background-color:  #2D001B;
+    display: flex;
+    padding: 64px 74px 50px 74px;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+.dashboard-bar::-webkit-scrollbar {
+    width: 5px;
+}
+
+.dashboard-bar::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.dashboard-bar::-webkit-scrollbar-thumb {
+    background-color: #dedede;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
+.dashboard-bar ul{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    padding-top: 32px;
+}
+.dashboard-bar ul li{
+    color: #ffffff;
+    list-style-type: none;
+}
+.user-initials{
+    background-color: #ffffff;
+}
+.dashboard-bar p{
+    color: #ffffff;
+}
+.dashboard-bar button{
+    width: 254px;
+    height: 64px;
+    background-color: #E20088;
+    border-radius: 8px;
+    border: none;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.015em;
+    color: #ffffff;
+    margin-top: 69px;
+}
+.user-details{
+    display: flex;
+    gap: 24px;
+    margin-top: 136px;
+}
+.user-initials{
+    border-radius: 50%;
+    min-width: 73px;
+    height: 73px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user-details p{
+    align-self: flex-end;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+}
+.user-initials h4{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #E20088;
 }

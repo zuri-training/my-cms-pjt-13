@@ -1,0 +1,31 @@
+.design-page{
+    display: flex;
+}
+.design-page-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 106px;
+}
+.design-page .edit-btn{
+    width: 109px;
+    background-color:  #E20088;
+    color: #fff;
+}
+.design-page-buttons{
+    display: flex;
+    gap: 10px;
+    padding-top: 20px;
+}
+.design-page button{
+    height: 64px;
+    border-radius: 8px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.015em;
+    border: none;
+    padding: 0 5px;
+}

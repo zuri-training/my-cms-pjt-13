@@ -1,3 +1,5 @@
+import Button from "../../components/Button";
+import { Link } from 'react-router-dom'
 
 const ForgotPassword = () => {
     return(
@@ -7,6 +9,7 @@ const ForgotPassword = () => {
                 <img src={require("../../assets/images/favicon.png")} alt="" className="coloured-thirtin-logo"/>
             </div>
             <main >
+                <div> <Button /> </div>
                 <div className="forgot-password-parent">
                     <div className="forgot-password-text">
                         <h3>Forgot Password?</h3>
@@ -16,7 +19,7 @@ const ForgotPassword = () => {
                                 <p>Email</p>
                                 <input type="text" placeholder="GabrielIsaac@gmaiil.com"/>
                             </div>
-                            <input className="submit-forgot-password" type="submit" value="Send Code"/>
+                            <Link to="/account-verify"><input className="submit-forgot-password" type="submit" value="Send Code"/></Link>
                         </div>
                     </div>
                 </div>
